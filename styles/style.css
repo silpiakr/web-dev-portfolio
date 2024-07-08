@@ -24,14 +24,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 226px;
-    /* padding: 30px; */
-    margin: 0px 100px;
+    padding: 20px;
+    margin: 0px 180px 0px 230px;
 }
 .nav-title{
     font-size: 45px;
     font-weight: 800;
     line-height: 0%;
+
 }
 
 .nav-title-style{
@@ -43,6 +43,7 @@ nav ul{
 }
 nav li{
     margin-right: 60px;
+
 
 }
 .text-color{
@@ -72,6 +73,9 @@ nav li a{
     justify-content: space-between;
     align-items: center;
     margin: 0px 32px 0px 226px;
+}
+.bg-primary{
+    background-color: #FFF8F3;
 }
 .banner-content{
     max-width: 582px;
@@ -106,4 +110,75 @@ nav li a{
     margin-bottom: -32px;
     margin-right: 70px;
 }
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.about{
+    max-width: 827px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 131px 156px;
+    margin-top: 130px;
+}
+.about-content{
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 2px solid;
+    padding: 0px 10px;
+
+}
+
+.section-subtitle{
+    margin: 30px 0px;color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.item-title{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.item-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* What I do Styles */
+.what-i-do{
+    max-width: 909px;
+    margin: 0 auto;
+    right: 346px;
+    left: 345px;
+    text-align: center;
+    
+}
+.what-i-do-content{ 
+    margin-top: 100px;
+    padding: 0px 30px;
+}
